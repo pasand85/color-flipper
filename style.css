@@ -1,0 +1,72 @@
+.app {
+  background-color: bisque;
+  width: 400px;
+  text-align: center;
+  
+}
+
+.btn, .btn2 {
+  font-size: 20px;
+  background-color: cadetblue;
+  border-radius: 1cm;
+  color:aliceblue;
+  
+
+}
+
+.btn:hover, .btn2:hover {
+  background-color: blueviolet;
+  cursor:pointer;
+  transition: 1s;
+
+}
+
+h1.answer {
+  color: red;
+  flex-direction: row;
+  text-align: center;
+  font-size: 2cm;
+}
+
+.colorFlipper {
+  background-color: beige;
+  width: 400px;
+  height: 300px;
+
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(223, 223, 204);
+}
+
+.board {
+  background-color:beige;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  
+
+}
+
+.cell1,.cell2 {
+  border: 3px solid black;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5cm;
+
+}
+
+.more {
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+
+}
